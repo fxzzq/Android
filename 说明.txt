@@ -1,0 +1,3 @@
+Android客户端工程名：Iot2
+Android服务端工程名：HelloWeb
+串口数据读取及存储：SerialCommunication.java

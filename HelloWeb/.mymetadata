@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="HelloWeb"
+  id="myeclipse.1497544771424"
+  context-root="/HelloWeb"
+  j2ee-spec="6.0"
+  archive="HelloWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

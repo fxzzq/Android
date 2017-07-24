@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/collectid"
+    android:textSize="10dp"
+    android:text="序号"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kb1"
+        android:layout_below="@+id/collectid"
+        android:layout_alignParentLeft="true"
+        android:textSize="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collectid"
+        android:id="@+id/collectname"
+        android:textSize="10dp"
+        android:text="区名"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/kb2"
+        android:layout_below="@+id/collectname"
+        android:layout_toRightOf="@+id/kb1"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collectname"
+        android:id="@+id/collecttemp"
+        android:textSize="10dp"
+        android:text="温度(℃)"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collecttemp"
+        android:id="@+id/kb3"
+        android:layout_toRightOf="@+id/kb2"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collecttemp"
+        android:id="@+id/collecthumi"
+        android:textSize="10dp"
+        android:text="湿度(%RH)"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/kb4"
+        android:layout_below="@+id/collecthumi"
+        android:layout_toRightOf="@+id/kb3"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collecthumi"
+        android:id="@+id/collectflame"
+        android:textSize="10dp"
+        android:text="火焰(mA)"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectflame"
+        android:layout_toRightOf="@+id/kb4"
+        android:id="@+id/kb5"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collectflame"
+        android:id="@+id/collectgas"
+        android:textSize="10dp"
+        android:text="气体(%)"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectgas"
+        android:layout_toRightOf="@+id/kb5"
+        android:id="@+id/kb6"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/collectgas"
+        android:id="@+id/time"
+        android:textSize="10dp"
+        android:text="时间"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_toRightOf="@+id/kb6"
+        android:id="@+id/kb7"
+        android:textSize="10dp"
+
+        android:gravity="center_horizontal"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+  >
+
+     <TextView
+         android:id="@+id/actul_degree"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="当前温度：" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+          <Button
+              android:id="@+id/clear"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="清空" />
+
+          <Button
+              android:id="@+id/all"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="全温度盘" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/minDegreeEdit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="最低温度"
+              android:inputType="number" />
+
+          <EditText
+              android:id="@+id/maxDegreeEdit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="最高温度"
+              android:inputType="number" />
+
+          <EditText
+              android:id="@+id/currentDegreeEdit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="当前温度"
+              android:inputType="number" />
+
+          <Button
+              android:id="@+id/ok"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="确定" />
+     </LinearLayout>
+
+     <com.example.xzq.iot2.Node_Real_Show1
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/gasBt"
+         android:layout_alignParentBottom="true"
+         android:id="@+id/myCircleView"/>
+
+</LinearLayout>
